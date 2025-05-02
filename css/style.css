@@ -1,5 +1,6 @@
 /* FUENTES IMPORTADAS */
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Oxanium:wght@200..800&display=swap');
 
 * {
     margin: 0;
@@ -7,6 +8,7 @@
     box-sizing: border-box;
 }
 
+/* ESTILO DEL ENCABEZADO PRINCIPAL */
 header.encabezado {
     position: relative;
     width: 100vw;
@@ -41,5 +43,70 @@ header.encabezado {
     font-family: Orbitron;
     font-size: 3vh;
     font-weight: 600;
-    color: whitesmoke;
+    color: darkgrey;
 }
+
+/* MENÚ DE NAVEGACIÓN */
+nav{
+    position: relative;
+    height: 5vh;
+    width: 100vw;
+    text-align: center;
+    background-color: black;
+}
+
+.nav{
+    list-style: none;
+}
+
+.nav > li{
+    position: relative;
+    display: inline-block;
+    margin: 0 2vw;
+    font-family: Oxanium;
+    font-size: 2vh;
+    padding-bottom: 1vh;
+}
+
+.nav > li > a{
+    display: block;
+    padding: 1vh;
+    color: darkgrey;
+    background-color: black;
+    text-decoration: none;
+}
+
+.nav li a:hover{
+    color: black;
+    background-color: darkgrey;
+    transition: 0.5s;
+}
+
+.nav li ul{
+    position: absolute;
+    display: none;
+}
+
+.nav li:hover > ul{
+    display: block;
+    top: 5vh;
+    transition: 0.5s;
+}
+
+.nav li ul li{
+    position: relative;
+    list-style: none;
+}
+
+.nav li ul li a{
+    display: block;
+    padding: 1.2vh;
+    color: darkgrey;
+    background-color: black;
+    text-decoration: none;
+    text-align: left;
+}
+
+/* MAIN */
+/* ASIDE */
+/* FOOTER */
