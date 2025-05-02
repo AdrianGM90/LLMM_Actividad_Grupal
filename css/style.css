@@ -1,6 +1,6 @@
 /* FUENTES IMPORTADAS */
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Oxanium:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
 
 * {
     margin: 0;
@@ -108,5 +108,66 @@ nav{
 }
 
 /* MAIN */
+.principal{
+    position: relative;
+    width: 75vw;
+    height: 75vh;
+    margin-right: 25vw;
+    background-image: url("../img/main-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 2vh;
+}
+
+.principal img{
+    display: block;
+    margin: auto;
+    width: 32vw;
+}
+
+.principal-titulo{
+    position: relative;
+    text-align: center;
+    padding: 2vh;
+    font-family: Orbitron;
+    font-size: 4vh;
+    font-weight: 600;
+    color: darkgrey;
+    text-transform: uppercase;
+}
+
+.principal article > h2{
+    position: relative;
+    margin: 2vh;
+    font-family: Oxanium;
+    font-size: 3vh;
+    text-align: center;
+    color: darkgrey;
+}
+
+.principal footer > p{
+    position: relative;
+    font-family: Oxanium;
+    font-size: 2vh;
+    text-align: center;
+    color: darkgrey;
+}
+
 /* ASIDE */
+.lateral{
+    position: absolute;
+    right: 0;
+    top: 15vh;
+    width: 25vw;
+    height: 75vh;
+    background-color: darkgreen;
+}
 /* FOOTER */
+.pie-pagina{
+    position: relative;
+    height: 10vh;
+    width: 100vw;
+    background-color: black;
+}
