@@ -124,7 +124,8 @@ nav{
 .principal img{
     display: block;
     margin: auto;
-    width: 32vw;
+    width: 50vw;
+    max-height: 48vh;
 }
 
 .principal-titulo{
@@ -162,11 +163,68 @@ nav{
     top: 15vh;
     width: 25vw;
     height: 75vh;
-    background-color: darkgreen;
+    background-color: black;
+    border: 0.5vh solid darkgrey;
 }
+
+.lateral-titulo{
+    position: relative;
+    margin: 3vh 1vh;
+    text-align: center;
+    font-family: Orbitron;
+    font-size: 3vh;
+    font-weight: 600;
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+
+.lateral-bloque{
+    position: relative;
+    background-color: black;
+    margin: .5vh;
+    padding: 1vh 1vw;
+    border: 0.25vh solid darkgrey;
+    border-radius: 1vh;
+}
+
+.lateral-bloque a{
+    text-decoration: none;
+}
+
+.lateral-bloque h3{
+    padding: 1vh;
+    font-family: Oxanium;
+    font-size: 2vh;
+    color: whitesmoke;
+}
+
+.lateral-bloque-contenido{
+    position: relative;
+    height: auto;
+    min-height: 12vh;
+    background-color: black;
+}
+
+.lateral-bloque-texto{
+    position: absolute;
+    top: 0vh;
+    left: 0vw;
+    width: 12vw;
+    height: auto;
+    font-family: Oxanium;
+    font-size: 1.5vh;
+    color: whitesmoke;
+}
+
+.lateral-bloque-contenido img{
+    position: absolute;
+    top: 0;
+    left: 12.5vw;
+    max-width: 8.4vw;
+}
+
 /* FOOTER */
 .pie-pagina{
-    position: relative;
     height: 10vh;
     width: 100vw;
     background-color: black;
