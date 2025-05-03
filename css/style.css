@@ -149,6 +149,15 @@ nav{
     color: darkgrey;
 }
 
+.principal article > p{
+    position: relative;
+    margin: 1.5vh;
+    font-family: Oxanium;
+    font-size: 2vh;
+    text-align: center;
+    color: darkgrey;
+}
+
 .principal footer > p{
     position: relative;
     font-family: Oxanium;
@@ -164,6 +173,16 @@ nav{
     top: 15vh;
     width: 25vw;
     min-height: 75vh;
+    background-color: black;
+    border: 0.5vh solid darkgrey;
+}
+    /* Ajuste especifico para la zona lateral en quienessomos.html */
+.lateral-quienessomos{
+    position: absolute;
+    right: 0;
+    top: 15vh;
+    width: 25vw;
+    min-height: 91.5vh;
     background-color: black;
     border: 0.5vh solid darkgrey;
 }
