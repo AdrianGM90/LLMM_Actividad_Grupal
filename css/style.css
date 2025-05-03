@@ -37,7 +37,7 @@ header.encabezado {
     height: 100%;
 }
 
-.nombre{
+.nombre {
     margin-left: 2vw;
     line-height: 5vh;
     font-family: Orbitron;
@@ -47,7 +47,7 @@ header.encabezado {
 }
 
 /* MENÚ DE NAVEGACIÓN */
-nav{
+nav {
     position: relative;
     height: 5vh;
     width: 100vw;
@@ -56,11 +56,11 @@ nav{
     z-index: 100;
 }
 
-.nav{
+.nav {
     list-style: none;
 }
 
-.nav > li{
+.nav>li {
     position: relative;
     display: inline-block;
     margin: 0 2vw;
@@ -69,7 +69,7 @@ nav{
     padding-bottom: 1vh;
 }
 
-.nav > li > a{
+.nav>li>a {
     display: block;
     padding: 1vh;
     color: darkgrey;
@@ -77,29 +77,29 @@ nav{
     text-decoration: none;
 }
 
-.nav li a:hover{
+.nav li a:hover {
     color: black;
     background-color: darkgrey;
     transition: 0.5s;
 }
 
-.nav li ul{
+.nav li ul {
     position: absolute;
     display: none;
 }
 
-.nav li:hover > ul{
+.nav li:hover>ul {
     display: block;
     top: 5vh;
     transition: 0.5s;
 }
 
-.nav li ul li{
+.nav li ul li {
     position: relative;
     list-style: none;
 }
 
-.nav li ul li a{
+.nav li ul li a {
     display: block;
     padding: 1.2vh;
     color: darkgrey;
@@ -109,7 +109,7 @@ nav{
 }
 
 /* MAIN */
-.principal{
+.principal {
     position: relative;
     width: 75vw;
     min-height: 75vh;
@@ -122,14 +122,14 @@ nav{
     padding: 2vh;
 }
 
-.principal img{
+.principal img {
     display: block;
     margin: auto;
     width: 50vw;
     max-height: 48vh;
 }
 
-.principal-titulo{
+.principal-titulo {
     position: relative;
     text-align: center;
     padding: 2vh;
@@ -140,7 +140,7 @@ nav{
     text-transform: uppercase;
 }
 
-.principal article > h2{
+.principal article>h2 {
     position: relative;
     margin: 2vh;
     font-family: Oxanium;
@@ -149,7 +149,7 @@ nav{
     color: darkgrey;
 }
 
-.principal article > p{
+.principal article>p {
     position: relative;
     margin: 1.5vh;
     font-family: Oxanium;
@@ -158,7 +158,7 @@ nav{
     color: darkgrey;
 }
 
-.principal article ol{
+.principal article ol {
     position: relative;
     margin: 1.5vh;
     padding: 1.5vh 3vw;
@@ -168,11 +168,11 @@ nav{
     color: darkgrey;
 }
 
-.principal article ol li{
+.principal article ol li {
     margin-bottom: 1vh;
 }
 
-.principal footer > p{
+.principal footer>p {
     position: relative;
     font-family: Oxanium;
     font-size: 2vh;
@@ -180,8 +180,57 @@ nav{
     color: darkgrey;
 }
 
+/* Sección exclusiva para noticias.html */
+.noticia {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 70vw;
+    height: 20vh;
+    margin: 1.5vh;
+    padding: 1.5vh 3vw;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 0.25vh solid darkgrey;
+    border-radius: 1vh;
+}
+
+#noticia1 {
+    height: 22vh;
+}
+
+.noticia img {
+    position: absolute;
+    top: 2.5vh;
+    left: 1vw;
+    height: 15vh;
+    width: 15vh;
+    border-radius: 1vh;
+}
+
+.noticia-bloque {
+    position: absolute;
+    top: 2.5vh;
+    left: 9.25vw;
+    width: 60vw;
+    height: 20vh;
+}
+
+.noticia-titular {
+    font-family: Oxanium;
+    font-size: 3vh;
+    text-align: left;
+    color: darkgrey;
+}
+
+.noticia-texto {
+    font-family: Oxanium;
+    font-size: 2vh;
+    text-align: left;
+    color: darkgrey;
+}
+
 /* ASIDE */
-.lateral{
+.lateral {
     position: absolute;
     right: 0;
     top: 15vh;
@@ -190,8 +239,9 @@ nav{
     background-color: black;
     border: 0.5vh solid darkgrey;
 }
-    /* Ajuste especifico para la zona lateral en quienessomos.html */
-.lateral-quienessomos{
+
+/* Ajuste especifico para la zona lateral en quienessomos.html */
+.lateral-quienessomos {
     position: absolute;
     right: 0;
     top: 15vh;
@@ -201,18 +251,29 @@ nav{
     border: 0.5vh solid darkgrey;
 }
 
-    /* Ajuste especifico para la zona lateral en areasactuacion.html */
-    .lateral-quienessomos{
-        position: absolute;
-        right: 0;
-        top: 15vh;
-        width: 25vw;
-        min-height: 117vh;
-        background-color: black;
-        border: 0.5vh solid darkgrey;
-    }
+/* Ajuste especifico para la zona lateral en areasactuacion.html */
+.lateral-areasactuacion {
+    position: absolute;
+    right: 0;
+    top: 15vh;
+    width: 25vw;
+    min-height: 117vh;
+    background-color: black;
+    border: 0.5vh solid darkgrey;
+}
 
-.lateral-titulo{
+/* Ajuste especifico para la zona lateral en noticias.html */
+.lateral-noticias {
+    position: absolute;
+    right: 0;
+    top: 15vh;
+    width: 25vw;
+    min-height: 81vh;
+    background-color: black;
+    border: 0.5vh solid darkgrey;
+}
+
+.lateral-titulo {
     position: relative;
     margin: 3vh 1vh;
     text-align: center;
@@ -223,12 +284,12 @@ nav{
     text-transform: uppercase;
 }
 
-.lateral-bloque h3:hover{
+.lateral-bloque h3:hover {
     color: whitesmoke;
     transition: 0.5s;
 }
 
-.lateral-bloque{
+.lateral-bloque {
     position: relative;
     background-color: black;
     margin: .5vh;
@@ -237,25 +298,25 @@ nav{
     border-radius: 1vh;
 }
 
-.lateral-bloque a{
+.lateral-bloque a {
     text-decoration: none;
 }
 
-.lateral-bloque h3{
+.lateral-bloque h3 {
     padding: 1vh;
     font-family: Oxanium;
     font-size: 2vh;
     color: darkgrey;
 }
 
-.lateral-bloque-contenido{
+.lateral-bloque-contenido {
     position: relative;
     height: auto;
     min-height: 12vh;
     background-color: black;
 }
 
-.lateral-bloque-texto{
+.lateral-bloque-texto {
     position: absolute;
     top: 0vh;
     left: 0vw;
@@ -266,20 +327,20 @@ nav{
     color: darkgrey;
 }
 
-.lateral-bloque-contenido img{
+.lateral-bloque-contenido img {
     position: absolute;
     top: 0;
     left: 12.5vw;
     max-width: 8.5vw;
 }
 
-#lateral-logo{
+#lateral-logo {
     height: 9vh;
     width: auto;
 }
 
 /* FOOTER */
-.pie-pagina{
+.pie-pagina {
     position: relative;
     height: 10vh;
     width: 100vw;
@@ -288,7 +349,7 @@ nav{
     background-color: black;
 }
 
-.copyright{
+.copyright {
     position: absolute;
     top: 4.5vh;
     left: 2vw;
@@ -299,7 +360,7 @@ nav{
     color: darkgrey;
 }
 
-.redes-sociales{
+.redes-sociales {
     position: relative;
     top: 2.5vh;
     left: 82vw;
@@ -307,7 +368,7 @@ nav{
     width: 14vw;
 }
 
-.linkedin{
+.linkedin {
     position: absolute;
     top: 0;
     left: 0;
@@ -315,7 +376,7 @@ nav{
     max-width: 5vh;
 }
 
-.gmail{
+.gmail {
     position: absolute;
     top: 0;
     left: 5vw;
@@ -325,7 +386,7 @@ nav{
     color: darkgrey;
 }
 
-.github{
+.github {
     position: absolute;
     top: 0;
     left: 10vw;
@@ -335,12 +396,12 @@ nav{
     color: darkgrey;
 }
 
-.redes-sociales a > ion-icon{
+.redes-sociales a>ion-icon {
     font-size: 5vh;
     color: darkgrey;
 }
 
-.redes-sociales a > ion-icon:hover{
+.redes-sociales a>ion-icon:hover {
     color: whitesmoke;
     transition: 0.5s;
 }

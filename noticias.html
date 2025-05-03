@@ -9,7 +9,7 @@
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./img/logo.png" type="img/x-icon">
-    <title>Áreas de actuación</title>
+    <title>Noticias</title>
 </head>
 
 <body>
@@ -50,50 +50,66 @@
     <!-- CUERPO PRINCIPAL -->
     <main class="principal">
         <section>
-            <header class="principal-titulo">Áreas de actuación</header>
-            <!-- https://media.istockphoto.com/id/1059548978/es/foto/concepto-de-soporte-t%C3%A9cnico-empresario-tocando-helpdesk-icono-en-pantalla-servicio-de.jpg?s=2048x2048&w=is&k=20&c=Rjfr0KqIhs4swWyOOapzp8hlQxakSjZg2CKnSupM4-w= -->
-            <img src="./img/areasactuacion-imagen.jpg" alt="Áreas de actuación">
-            <article>
-                <p>En We Are Developers, nuestra labor se centra en el desarrollo backend, pero nuestras capacidades y
-                    experiencia abarcan un espectro más amplio de soluciones tecnológicas. Estas son nuestras
-                    principales áreas de actuación:</p>
+            <header class="principal-titulo">Noticias</header>
 
-                <ol>
-                    <li><b>Desarrollo Backend Escalable</b>
-                        <p>Diseñamos y desarrollamos arquitecturas backend sólidas, pensadas para escalar de forma
-                            eficiente y segura. Aplicamos las mejores prácticas de ingeniería de software, utilizando
-                            tecnologías modernas como Node.js, Python, Java y bases de datos relacionales y no
-                            relacionales.</p>
-                    </li>
-                    <li><b>Integracion de APIs y Microservicios</b>
-                        <p>Creamos sistemas modulares basados en microservicios que permiten una integración ágil con
-                            terceros. Facilitamos la interoperabilidad entre plataformas, mejorando la flexibilidad y el
-                            rendimiento de los productos digitales.</p>
-                    </li>
-                    <li><b>Consultoría Técnica para Startups</b>
-                        <p>Acompañamos a startups en sus primeras etapas, brindando asesoría técnica estratégica.
-                            Evaluamos la viabilidad técnica de proyectos, planteamos soluciones adaptadas a sus recursos
-                            y colaboramos estrechamente en el diseño de MVPs eficientes.</p>
-                    </li>
-                    <li><b>Automatización de Procesos y DevOps</b>
-                        <p>Implementamos soluciones de automatización para despliegue continuo (CI/CD), monitorización y
-                            gestión de infraestructuras en la nube. Nuestra experiencia con herramientas como Docker,
-                            Kubernetes y plataformas como AWS y Azure nos permite optimizar el ciclo de vida del
-                            desarrollo.</p>
-                    </li>
-                    <li><b>Ciberseguridad y Buenas Prácticas</b>
-                        <p>Ponemos especial énfasis en la seguridad de las aplicaciones desde la fase de diseño.
-                            Aplicamos prácticas de desarrollo seguro (Secure SDLC), análisis de vulnerabilidades y
-                            políticas de protección de datos.</p>
-                    </li>
-                </ol>
+            <!-- NOTICIA 1 -->
+            <div class="noticia">
+                <!-- https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vikingsoftware.com%2Fservices%2Ftechnologies%2Fwhat-is-docker%2F&psig=AOvVaw0kDwVjSRUvOi1jvUK8XvZj&ust=1746372673488000&source=images&opi=89978449 -->
+                <img src="./img/Docker-logo.png" alt="Logo Docker">
+                <div class="noticia-bloque">
+                    <h3 class="noticia-titular">We Are Devs implementa infraestructura escalable para fintech
+                        europea.</h3>
+                    <p class="noticia-texto">
+                        La startup financiera NeoFunds ha confiado en We Are Devs para rediseñar su arquitectura
+                        backend.
+                        Gracias a una solución basada en microservicios y contenedores Docker, la plataforma puede ahora
+                        procesar el doble de transacciones por segundo, garantizando seguridad y estabilidad. “Era
+                        esencial contar con un equipo que entendiera la importancia de escalar sin comprometer el
+                        rendimiento”, declaró el CTO de NeoFunds.
+                    </p>
+                </div>
+            </div>
 
-            </article>
+            <!-- NOTICIA 2 -->
+            <div class="noticia" id="noticia1">
+                <!-- https://media.istockphoto.com/id/1916729901/es/foto/meeting-success-two-business-persons-shaking-hands-standing-outside.jpg?s=2048x2048&w=is&k=20&c=uxg7o2-U5CM2pZXvlJ2tj67qPt8BelJs58oLP5VzAxw= -->
+                <img src="./img/Alianza.jpg" alt="Alianza Estratégica">
+                <div class="noticia-bloque">
+                    <h3 class="noticia-titular">Nuevas alianzas estratégicas: We Are Devs asesora a 4 startups en
+                        fase semilla.</h3>
+                    <p class="noticia-texto">
+                        Como parte de su servicio de consultoría técnica, We Are Devs ha iniciado colaboraciones
+                        con cuatro startups tecnológicas de España, Alemania y Chile.
+                        <br>El objetivo: definir arquitecturas viables para sus MVPs, optimizar costes en la nube y
+                        asegurar el cumplimiento de buenas prácticas desde la primera línea de código. “Más que
+                        consultores, actuamos como socios tecnológicos”, afirmó Adrián Guerrero, cofundador de la
+                        empresa.
+                    </p>
+                </div>
+            </div>
+
+            <!-- NOTICIA 3 -->
+            <div class="noticia">
+                <!-- https://images.freeimages.com/images/large-previews/a45/growth-trend-visualization-0410-5713130.jpg -->
+                <img src="./img/Rendimiento.jpg" alt="Rendimiento">
+                <div class="noticia-bloque">
+                    <h3 class="noticia-titular">We Are Devs lanza solución de CI/CD automatizado en entorno
+                        híbrido.</h3>
+                    <p class="noticia-texto">
+                        Con el objetivo de reducir tiempos de despliegue y mejorar la eficiencia operativa, We Are
+                        Devs ha desarrollado un sistema de integración y entrega continua (CI/CD) para empresas
+                        con infraestructura híbrida.
+                        <br>Este sistema, implementado en una mediana empresa del sector logístico, logró reducir un 60%
+                        los errores en producción. La solución incluye pipelines en GitHub Actions, integración con
+                        Kubernetes y políticas de rollback automático.
+                    </p>
+                </div>
+            </div>
         </section>
     </main>
 
     <!-- ZONA LATERAL -->
-    <aside class="lateral-areasactuacion">
+    <aside class="lateral-noticias">
         <header class="lateral-titulo">Últimas publicaciones</header>
         <div class="lateral-bloque">
             <a href="#">
