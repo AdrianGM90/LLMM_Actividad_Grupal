@@ -158,6 +158,20 @@ nav{
     color: darkgrey;
 }
 
+.principal article ol{
+    position: relative;
+    margin: 1.5vh;
+    padding: 1.5vh 3vw;
+    font-family: Oxanium;
+    font-size: 2vh;
+    text-align: left;
+    color: darkgrey;
+}
+
+.principal article ol li{
+    margin-bottom: 1vh;
+}
+
 .principal footer > p{
     position: relative;
     font-family: Oxanium;
@@ -186,6 +200,17 @@ nav{
     background-color: black;
     border: 0.5vh solid darkgrey;
 }
+
+    /* Ajuste especifico para la zona lateral en areasactuacion.html */
+    .lateral-quienessomos{
+        position: absolute;
+        right: 0;
+        top: 15vh;
+        width: 25vw;
+        min-height: 117vh;
+        background-color: black;
+        border: 0.5vh solid darkgrey;
+    }
 
 .lateral-titulo{
     position: relative;
