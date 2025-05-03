@@ -231,7 +231,7 @@ nav {
 }
 
 /* MAIN PARA publicaciones.html*/
-#publicaciones {
+.publicaciones {
     position: relative;
     width: 100vw;
     min-height: 75vh;
@@ -276,6 +276,18 @@ nav {
 
 .publicacion-bloque h3 span{
     font-weight: 400;
+}
+
+    /* Exclusivo para localización.html*/
+#ubicacion{ 
+    height: 50vh;
+    width: 40vw;
+}
+
+#direccion{
+    font-size: 3vh;
+    font-weight: 500;
+    margin-top: 3vh;
 }
 
 /* ASIDE */
