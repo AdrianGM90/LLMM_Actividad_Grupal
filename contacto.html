@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Libreria iconos web https://ionic.io/ionicons/usage -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/logo.png" type="img/x-icon">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <!-- ENCABEZADO PRINCIPAL -->
+    <header class="encabezado">
+        <div class="encabezado-principal">
+            <div class="logo">
+                <a href="./index.html"><img src="./img/logo.png" alt="logo"></a>
+            </div>
+            <div class="nombre">We Are Devs</div>
+        </div>
+    </header>
+
+    <!-- MENÚ DE NAVEGACIÓN -->
+    <nav>
+        <div>
+            <ul class="nav">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./quienessomos.html">Sobre nosotros</a>
+                    <ul>
+                        <li><a href="./quienessomos.html">Quiénes somos</a></li>
+                        <li><a href="./areasactuacion.html">Áreas de actuación</a></li>
+                    </ul>
+                </li>
+                <li><a href="./noticias.html">Información</a>
+                    <ul>
+                        <li><a href="./noticias.html">Noticias</a></li>
+                        <li><a href="./publicaciones.html">Publicaciones</a></li>
+                    </ul>
+                </li>
+                <li><a href="./localizacion.html">Localización</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+    <!-- CUERPO PRINCIPAL, FORMULARIO -->
+    <main class="formulario">
+        <section>
+            <header class="principal-titulo">Contacto</header>
+            <p>Si está interesado, puede ponerse en contacto con nosotros a través del siguiente formulario:</p>
+
+            <form action="mailto:adrian.guerrero.martinez.1990@gmail.com" method="post">
+                <div class="formulario-bloque-principal">
+                    <fieldset class="formulario-bloque">
+                        <legend>Datos personales</legend>
+                        <div class="formulario-campo"><label for="Nombre">Nombre*:</label><input type="text"
+                                name="Nombre" id="Nombre" placeholder="Nombre" required></div>
+                        <div class="formulario-campo"><label for="Apellidos">Apellidos*:</label><input type="text"
+                                name="Apellidos" id="Apellidos" placeholder="Apellidos" required></div>
+                        <div class="formulario-campo"><label for="Dni">DNI*:</label><input type="text" name="Dni"
+                                id="Dni" placeholder="12345678A" required></div>
+                        <div class="formulario-campo"><label for="LugarNacimiento">Lugar de nacimiento:</label><input
+                                type="text" name="LugarNacimiento" id="LugarNacimiento"
+                                placeholder="Lugar de nacimiento"></div>
+                        <div class="formulario-campo"><label for="FechaNacimiento">Fecha de nacimiento*:</label><input
+                                type="date" name="FechaNacimiento" id="FechaNacimiento" required></div>
+                        <div class="formulario-campo"><label for="Telefono">Teléfono*:</label><input type="tel"
+                                name="Telefono" id="Telefono" placeholder="+34 XXX XXX XXX" required></div>
+                        <div class="formulario-campo"><label for="Email">Correo electrónico*:</label><input type="email"
+                                name="Email" id="Email" placeholder="ejemplo@gmail.com" required></div>
+                    </fieldset>
+                </div>
+
+                <div class="formulario-bloque-principal">
+                    <fieldset class="formulario-bloque">
+                        <legend>Domicilio</legend>
+                        <div class="formulario-campo"><label for="Direccion">Dirección*:</label><input type="text"
+                                name="Direccion" id="Direccion" placeholder="C/Ejemplo 12" required></div>
+                        <div class="formulario-campo"><label for="CP">Código Postal*:</label><input type="number"
+                                name="CP" id="CP" placeholder="12345" min="00000" max="99999" required></div>
+                        <div class="formulario-campo"><label for="Provincia">Provincia*:</label><select name="Provincia" id="Provincia" required>
+                            <option value="0">Seleccione una provincia</option>
+                            <option value="1">Álava</option>
+                            <option value="2">Albacete</option>
+                            <option value="3">Alicante</option>
+                            <option value="4">Almería</option>
+                            <option value="5">Asturias</option>
+                            <option value="6">Ávila</option>
+                            <option value="7">Badajoz</option>
+                            <option value="8">Barcelona</option>
+                            <option value="9">Burgos</option>
+                            <option value="10">Cáceres</option>
+                            <option value="11">Cádiz</option>
+                            <option value="12">Cantabria</option>
+                            <option value="13">Castellón</option>
+                            <option value="14">Ciudad Real</option>
+                            <option value="15">Córdoba</option>
+                            <option value="16">Cuenca</option>
+                            <option value="17">Gerona</option>
+                            <option value="18">Granada</option>
+                            <option value="19">Guadalajara</option>
+                            <option value="20">Guipúzcoa</option>
+                            <option value="21">Huelva</option>
+                            <option value="22">Huesca</option>
+                            <option value="23">Islas Baleares</option>
+                            <option value="24">Jaén</option>
+                            <option value="25">La Coruña</option>
+                            <option value="26">La Rioja</option>
+                            <option value="27">Las Palmas</option>
+                            <option value="28">León</option>
+                            <option value="29">Lérida</option>
+                            <option value="30">Lugo</option>
+                            <option value="31">Madrid</option>
+                            <option value="32">Málaga</option>
+                            <option value="33">Murcia</option>
+                            <option value="34">Navarra</option>
+                            <option value="35">Orense</option>
+                            <option value="36">Palencia</option>
+                            <option value="37">Pontevedra</option>
+                            <option value="38">Salamanca</option>
+                            <option value="39">Santa Cruz de Tenerife</option>
+                            <option value="40">Segovia</option>
+                            <option value="41">Sevilla</option>
+                            <option value="42">Soria</option>
+                            <option value="43">Tarragona</option>
+                            <option value="44">Teruel</option>
+                            <option value="45">Toledo</option>
+                            <option value="46">Valencia</option>
+                            <option value="47">Valladolid</option>
+                            <option value="48">Vizcaya</option>
+                            <option value="49">Zamora</option>
+                            <option value="50">Zaragoza</option>
+                            <option value="51">Ceuta</option>
+                            <option value="52">Melilla</option>
+                        </select></div>
+                    </fieldset>
+                </div>
+
+                <div class="formulario-bloque-principal">
+                    <fieldset class="formulario-bloque">
+                        <legend>Solicitud</legend>
+                        <textarea name="mensaje" id="mensaje" placeholder="Escriba aquí su motivo de contacto..."
+                            required></textarea>
+                    </fieldset>
+                </div>
+
+                <div id="botones">
+                    <button type="submit" value="Enviar" id="send"><ion-icon name="checkmark-circle-outline"></ion-icon></button>
+                    <button type="reset" value="Borrar" id="reset"><ion-icon name="refresh-circle-outline"></ion-icon></button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="pie-pagina">
+        <div class="copyright">&copy; Web corporativa creada para la materia de Lenguaje de Marcas del CFGS DAM.</div>
+        <div class="redes-sociales">
+            <div class="linkedin"><a href="https://www.linkedin.com/in/adri%C3%A1n-guerrero-mart%C3%ADnez-430921255"
+                    target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></div>
+            <div class="gmail"><a href="mailto:adrian.guerrero.martinez.1990@gmail.com" target="_blank"><ion-icon
+                        name="mail-outline"></ion-icon></a></div>
+            <div class="github"><a href="https://github.com/AdrianGM90" target="_blank"><ion-icon
+                        name="logo-github"></ion-icon></a></div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

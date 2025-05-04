@@ -244,7 +244,7 @@ nav {
     padding: 2vh;
 }
 
-.publicacion{
+.publicacion {
     position: relative;
     top: 0;
     left: 0;
@@ -274,20 +274,144 @@ nav {
     border-radius: 1vh;
 }
 
-.publicacion-bloque h3 span{
+.publicacion-bloque h3 span {
     font-weight: 400;
 }
 
-    /* Exclusivo para localización.html*/
-#ubicacion{ 
+/* Exclusivo para localización.html*/
+#ubicacion {
     height: 50vh;
     width: 40vw;
 }
 
-#direccion{
+#direccion {
     font-size: 3vh;
     font-weight: 500;
     margin-top: 3vh;
+}
+
+/* CONTACTO - FORMULARIO */
+.formulario {
+    position: relative;
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url("../img/main-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 2vh;
+}
+
+.formulario p {
+    position: relative;
+    margin-bottom: 1vh;
+    font-family: Oxanium;
+    font-size: 2vh;
+    text-align: center;
+    color: darkgrey;
+}
+
+.formulario-bloque-principal {
+    position: relative;
+    top: 1vh;
+    margin-bottom: 2vh;
+}
+
+.formulario-bloque {
+    position: relative;
+    display: block;
+    width: 30vw;
+    height: auto;
+    margin: auto;
+    border: 0.5vh solid darkgrey;
+    border-radius: 1vh;
+}
+
+.formulario-bloque legend {
+    margin-bottom: 1vh;
+    margin-left: 2vw;
+    padding: 0.5vh;
+    border: 0.25vh solid darkgrey;
+    border-radius: 0.25vh;
+    font-family: Oxanium;
+    font-size: 2vh;
+    color: darkgrey;
+    text-transform: uppercase;
+}
+
+.formulario-campo {
+    margin: 1vh 0;
+    height: 3vh;
+    font-family: Oxanium;
+    font-size: 2vh;
+    color: darkgrey;
+}
+
+.formulario-campo label {
+    position: absolute;
+    display: inline-block;
+    right: 15vw;
+}
+
+.formulario-campo input {
+    position: absolute;
+    display: inline-block;
+    width: 12vw;
+    left: 15vw;
+    font-family: Oxanium;
+    font-size: 1.5vh;
+}
+
+.formulario-campo select {
+    position: absolute;
+    display: inline-block;
+    width: 12vw;
+    left: 15vw;
+    font-family: Oxanium;
+    font-size: 1.5vh;
+}
+
+.formulario-bloque textarea {
+    display: block;
+    margin: auto;
+    margin-bottom: 2vh;
+    top: 1vh;
+    left: 2vw;
+    width: 26vw;
+    height: 14vh;
+    resize: none;
+    font-family: Oxanium;
+    font-size: 2vh;
+    color: black;
+    border-radius: 1vh;
+}
+
+#botones{
+    text-align: center;
+}
+
+button{
+    display: inline-block;
+    top: 3vh;
+    height: 5vh;
+    width: 5vw;
+    margin: 0 1vw;
+    border-radius: 1vh;
+}
+
+#botones ion-icon{
+    font-size: 4vh;
+}
+
+#send:hover{
+    background-color: limegreen;
+    transition: 0.5s;
+}
+
+#reset:hover{
+    background-color: red;
+    transition: 0.5s;
 }
 
 /* ASIDE */
