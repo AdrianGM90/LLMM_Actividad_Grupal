@@ -326,6 +326,7 @@ nav {
     margin: auto;
     border: 0.5vh solid darkgrey;
     border-radius: 1vh;
+    background-color: rgba(0, 0, 0, 0.75);
 }
 
 .formulario-bloque legend {
